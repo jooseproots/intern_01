@@ -6,9 +6,7 @@ The tasks include generating test data, creating a graphical representation of a
 
 TASK 1: GENERATING TEST DATA
 
-The goal of this task was to create a Jupyter notebook capable of generating Parquet files containing dummy data for evaluating the performance of various data processing frameworks. I struggled with making the data 3 dimensional, so I opted for 2 dimensional data only.
-
-WARNING! Generating a 10e6 x 10e6 table with this notebook will probably create around 500TB of data!
+The goal of this task was to create a Jupyter notebook capable of generating Parquet files containing dummy data for evaluating the performance of various data processing frameworks. A separate file for the data generator has been added.
 
 
 TASK 2: GRAPHING DATABASE SCHEMAS
